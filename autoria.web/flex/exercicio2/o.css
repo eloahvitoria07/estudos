@@ -1,0 +1,24 @@
+.pai {
+    width: 400px;
+    height: 300px;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lado {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.direita {
+    align-items: flex-end;
+}
+.esquerda {
+    align-items: flex-start;
+}
+.a {
+    width: 200px;
+    height: 30px;
+    background-color: #FFEE8C;
+}

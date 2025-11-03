@@ -1,0 +1,23 @@
+.pai{
+    width: 400px;
+    height: 240px;
+    display: flex;
+    background-color: orangered;
+    flex-direction: column;
+}
+.lado{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.a{
+    background-color: yellow;
+    height: 30px;
+    width: 200px;
+}
+.direito{
+    align-items: flex-start;
+}
+.esquerdo{
+    align-items: flex-end;
+}
